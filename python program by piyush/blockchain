@@ -8,3 +8,7 @@ class Block:
     self.data=data
     self.data=hash
     self.pre_hash=prev_hash
+
+
+
+    PREBA
