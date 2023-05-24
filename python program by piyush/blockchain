@@ -1,0 +1,10 @@
+import hashlib
+
+def hashGenerator(data):
+    result = hashlib.sha256(data.encode())
+    return
+class Block:
+    def __init__(self,data,hash,prev_hash):
+    self.data=data
+    self.data=hash
+    self.pre_hash=prev_hash
